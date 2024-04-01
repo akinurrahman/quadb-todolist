@@ -20,7 +20,7 @@ const TodoInput = ({ setShowForm }) => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="relative flex w-96 flex-col space-y-2 rounded-md bg-gray-100 p-8"
+      className="relative flex w-96 flex-col space-y-2 bg-gray-100 p-8 sm:rounded-md"
     >
       {/* Close button to hide the form */}
       <IoMdClose
